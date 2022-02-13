@@ -5,4 +5,4 @@ Requirements:\
 -- Python3\
 -- python modules: xml.etree.ElementTree and sys \
 -- gawk
-Th script is intended for use in Conky (see the README)  
+The script is intended for use in Conky (see the README)  
