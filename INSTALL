@@ -1,0 +1,8 @@
+To install the file, download it and make it executable \
+The "met" script scripts take 2 arguments, the first is the UK Met Office location ID and the second is the API key (available for free)\
+Requirements:\
+-- curl\
+-- Python3\
+-- python modules: xml.etree.ElementTree and sys \
+-- gawk
+Th script is intended for use in Conky (see the README)  
