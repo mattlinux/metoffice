@@ -23,7 +23,7 @@ function weather_report(record){
 	{
 		gsub("'\''|,","",report[i]) #strip out unwanted characters from the forecast data 
 	} 
-	printf("Likelihood of rain: %s",report[11]); printf("\045; ") #process the precipitation probability, display the the valuea % (Octal 045) 
+	printf("Likelihood of rain: %s",report[11]); printf("\045; ") #process the precipitation probability, display the the value as a % (Octal 045) 
 	printf("Wind speed: %s",report[13]); printf("mph; ") #process the wind speed
 	printf("Wind gust: %s",report[7]); printf("mph; ") #process the wind gust
 	printf("Temp: %s",report[15]); printf("C; ") #process the temperature
