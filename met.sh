@@ -26,10 +26,7 @@ function weather_report(record){
 	{
 		gsub("'\''|,","",report[i]) #strip out unwanted characters from the forecast data 
 	}
-        #for(i=0;i<20;i++)
-#		if(length(report[i])<2)
-##				report[i]=" "report[i]
-	if(length(report[11])==1)
+       	if(length(report[11])==1)
 		report[11]=" "report[11]
 	printf("Likelihood of rain: %s\045 |  ",report[11]); #process the precipitation probability, display the the value as a % (Octal 045) 
 	if(length(report[13])==1)
