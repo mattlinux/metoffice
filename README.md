@@ -6,10 +6,10 @@ I created this script as a cyclist because I wanted a forward view of key weathe
 -- wind gust (mph) \
 -- likelihood of precipitation (rain) as a % \
 -- weather type (such as "Cloudy") \
-Th script uses python for some preprocessing but but most of the data selection and formatting is carried out in gawk.  \
+The script uses python for some preprocessing but most of the data selection and formatting is carried out in gawk.  \
 The main purpose of the script is to output the weather data from Conky so it shows on the dekstop. Your entry in Conky will look something like this: \
 ${exec /home/myaccount/bin/met_office/met 352253 1ab1cd1-a123-12ab-a1b2-12ab1234ab12} \
-This shows a dummy API key (available for free at https://www.metoffice.gov.uk/services/data/datapoint and the UK Met Office location code for Leighton Buzzard. \
+This shows a dummy API key (available for free at https://www.metoffice.gov.uk/services/data/datapoint and the UK Met Office location code (in this case Leighton Buzzard, UK). \
 Here is some sample data: \
 Date: 13-02-2022 \
 12:00hrs  Likelihood of rain: 59%; Wind speed: 13mph; Wind gust: 29mph; Temp: 7C; Light rain\
