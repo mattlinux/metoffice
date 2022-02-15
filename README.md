@@ -1,4 +1,4 @@
-# metoffice
+metoffice
 Script to process the UK Meteorological Office XML feed \
 I created this script as a cyclist because I wanted a forward view of key weather data at 3-hourly intervals: \
 -- temperature \
