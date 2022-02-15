@@ -11,7 +11,6 @@ The main purpose of the script is to output the weather data from Conky so it sh
 ${exec /home/myaccount/bin/met_office/met.sh 352253 1ab1cd1-a123-12ab-a1b2-12ab1234ab12} \
 This shows a dummy API key (available for free at https://www.metoffice.gov.uk/services/data/datapoint) and the UK Met Office location code (in this case Leighton Buzzard, UK). \
 Here is some sample data: \
-
 Date: 14-02-2022\
 15:00hrs  | Likelihood of rain: 17% |  Wind speed: 16mph | Wind gust:  29mph |  Temp:   7C |  Cloudy\
 18:00hrs  | Likelihood of rain: 15% |  Wind speed: 13mph | Wind gust:  27mph |  Temp:   6C |  Cloudy\
