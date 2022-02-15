@@ -18,7 +18,7 @@ printf("\n")
 printf("Date: %s",date[3]); printf("-%s",date[2]); printf("-%s\n",date[1]) #Display the date of forecast in the correct order
 }
 function weather_at_time(time) {	
-	printf("%s | ",time)
+	printf("%s | ",time)	#print the forecast time
 }
 function weather_report(record){
 	split(record,report," ")
